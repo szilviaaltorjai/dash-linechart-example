@@ -5,21 +5,22 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading = "Baseball Stats from the 1950s"
-mytitle = "Batting Averages for 3 Hall of Famers"
-x_values = ['1954', '1955', '1956', '1957', '1958', '1959']
-y1_values = [345, 356, 345, 388, 328, 254]
-y2_values = [300, 306, 353, 365, 304, 285]
-y3_values = [280, 314, 328, 322, 326, 355]
+myheading = "National League Team Win Totals"
+mytitle = "Win totals"
+x_values = ['1990', '1991', '1992', '1993', '1994', '1995']
+y1_values = [65, 94, 98, 104, 68, 90]
+y2_values = [77, 77, 78, 84, 49, 73]
+y3_values = [91, 74, 90, 73, 66, 85]
 color1 = '#fc9403'
 color2 = '#0307fc'
 color3 = '#9003fc'
-name1 = 'Ted Williams'
-name2 = 'Mickey Mantle'
-name3 = 'Hank Aaron'
+name1 = 'ATL'
+name2 = 'CHC'
+name3 = 'CIN'
 tabtitle = 'baseball'
 sourceurl = 'https://www.baseball-reference.com'
-githublink = 'https://github.com/austinlasseter/dash-linechart-example'
+githublink = 'https://github.com/szilviaaltorjai/dash-linechart-example'
+notes = 'ATL: Atlanta Braves, Milwaukee Braves, Boston Bees, Boston Braves, Boston Rustlers, Boston Doves, Boston Beaneaters, Boston Red Stockings; CHC: Chicago Cubs, Chicago Orphans, Chicago Colts, Chicago White Stockings; CIN: Cincinnati Redlegs, Cincinnati Reds,Cincinnati Red Stockings'
 
 ########### Set up the chart
 
